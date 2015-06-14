@@ -185,3 +185,11 @@ export LC_ALL=en_US.UTF-8
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Setup or dismiss (goagent) proxy for curl, wget, etc.
+# https_proxy=http://robertzhouxh:Haoge831025@localhost:8787
+alias goproxy='export http_proxy=http://127.0.0.1:8087 https_proxy=http://127.0.0.1:8087'
+alias noproxy='unset http_proxy https_proxy'
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
