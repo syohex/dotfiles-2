@@ -28,6 +28,11 @@ ZSH_THEME="robbyrussell"
 alias vi="/usr/local/bin/vim"
 set -o vi
 
+# vim mode in zsh
+bindkey -v
+bindkey -M viins ‘jj’ vi-cmd-mode
+# vim mode in zsh end
+
 # Directory movement
 alias up="cd .."
 alias bk="cd -"
