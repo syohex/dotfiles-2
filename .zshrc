@@ -24,9 +24,10 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# added by robertzhouxh to select vim7.4 instead of vim7.3 --xuehao.zhou
+# added --xuehao.zhou
 alias vi="/usr/local/bin/vim"
 set -o vi
+alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 
 # vim mode in zsh
 bindkey -v
@@ -43,6 +44,7 @@ alias godesk='cd ~/Desktop'
 
 # Directory information
 alias ls="ls --color=auto"
+#alias ll="ls -lAFh --color"
 alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias dus="du -smh * | sort -nr" #根据文件大小排序
 alias lh='ls -d .*' # show hidden files/directories only #只显示隐藏文件
@@ -124,7 +126,7 @@ alias dns="dscacheutil -flushcache"
 alias oo='open .' # open current directory in OS X Finder
 
 
-# --end
+# end --xuehao.zhou
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -172,6 +174,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/openresty/nginx/sbin:$PATH
+export PATH=/opt/local/libexec/gnubin:$PATH
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -198,3 +202,9 @@ alias noproxy='unset http_proxy https_proxy'
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# use Unix Style cmd
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:/opt/local/libexec/gnubin:$PATH
+export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:
+alias ec='emacsclient -t -a=""'
+alias se='SUDO_EDITOR="emacsclient -t" sudo -e'
