@@ -27,7 +27,6 @@ ZSH_THEME="robbyrussell"
 # added --xuehao.zhou
 alias vi="/usr/local/bin/vim"
 set -o vi
-alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 
 # vim mode in zsh
 bindkey -v
@@ -197,14 +196,15 @@ export LC_ALL=en_US.UTF-8
 
 # Setup or dismiss (goagent) proxy for curl, wget, etc.
 # https_proxy=http://robertzhouxh:Haoge831025@localhost:8787
-alias goproxy='export http_proxy=http://127.0.0.1:8087 https_proxy=http://127.0.0.1:8087'
-alias noproxy='unset http_proxy https_proxy'
+# alias goproxy='export http_proxy=http://127.0.0.1:8087 https_proxy=http://127.0.0.1:8087'
+# alias noproxy='unset http_proxy https_proxy'
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # use Unix Style cmd
 export PATH=/usr/local/opt/coreutils/libexec/gnubin:/opt/local/libexec/gnubin:$PATH
-export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:
+export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:/usr/local/lib/erlang/man:$MANPATH
 alias ec='emacsclient -t -a=""'
 alias se='SUDO_EDITOR="emacsclient -t" sudo -e'
+# alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
