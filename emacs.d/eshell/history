@@ -1,0 +1,60 @@
+ls
+pwd
+ls
+ls
+ls
+ls
+ls
+ls
+pwd
+git
+qgit
+q
+ls
+ls
+gs
+pwd
+ls
+ls -l
+ls
+lsof
+pwd
+pwd
+ls
+cd ..
+ls
+rm -rf G
+ls
+rm GTAGS GRTAGS GPATH 
+ls
+ls
+ls
+rebar -h
+rebar -c
+cd ..
+lscd .travis.yml ls
+cd ..
+ls
+cd Test
+ls
+ls
+lscd
+lscd
+ls
+rebar create template=simplesrv srvid=rebar_server
+ls
+ls
+ll
+ls -l
+cd src
+ls
+lscd
+ll
+ll
+la
+ll
+ll
+ll
+vi a.txt
+ls
+ll

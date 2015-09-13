@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("c"
+ (filename . "~/githubs/nginx-0.7.61/src/core/nginx.c")
+ (front-context-string . "odule_create_con")
+ (rear-context-string . ",\n    ngx_core_m")
+ (position . 4224))
+("b"
+ (filename . "~/githubs/nginx-0.7.61/src/core/nginx.c")
+ (front-context-string . "_set_num_slot,\n ")
+ (rear-context-string . ",\n      ngx_conf")
+ (position . 2057))
+("a"
+ (filename . "~/githubs/nginx-0.7.61/src/core/nginx.c")
+ (front-context-string . "_CONF|NGX_DIRECT")
+ (rear-context-string . ",\n      NGX_MAIN")
+ (position . 1096))
+)

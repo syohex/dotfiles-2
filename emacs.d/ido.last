@@ -1,0 +1,165 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/robertzhouxh/MOLMC/webserver/Backend/lua/code/" . "service/")
+ ("/Users/robertzhouxh/MOLMC/webserver/Backend/lua/" . "code/")
+ ("/Users/robertzhouxh/githubs/emqttd/rel/" . "emqttd/")
+ ("/Users/robertzhouxh/githubs/emqttd/" . "deps/")
+ ("/Users/robertzhouxh/githubs/emacs.d/" . "config/")
+ ("/Users/robertzhouxh/githubs/robertzhouxh.github.com/_posts/" . "blog/")
+ ("/Users/robertzhouxh/githubs/robertzhouxh.github.com/" . "_posts/")
+ ("/Users/robertzhouxh/githubs/lua-5.1/" . "src/")
+ ("/Users/robertzhouxh/githubs/nginx-0.7.61/" . "src/")
+ ("/Users/robertzhouxh/githubs/" . "emqttd/")
+ ("/Users/" . "robertzhouxh/")
+ ("/" . "Users/")
+ ("/Users/robertzhouxh/githubs/test/src_bak/" . "a.h/")
+ ("/Users/robertzhouxh/githubs/nginx-0.7.61/src/" . "core/")
+ ("/Users/robertzhouxh/" . "githubs/")
+ ("/Users/robertzhouxh/githubs/test/" . "src/")
+ ("/Users/robertzhouxh/githubs/test/src/" . "subDir/")
+ ("/Users/robertzhouxh/githubs/lua-nginx-module/src/" . "api/")
+ ("/Users/robertzhouxh/githubs/lua-nginx-module/" . "src/")
+ ("/Users/robertzhouxh/FTNT/" . "FortiWEB/")
+ ("/Users/robertzhouxh/.emacs.d/" . "config/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/robertzhouxh/githubs/emqttd/deps/"
+ "/Users/robertzhouxh/githubs/emqttd/ebin/"
+ "/Users/robertzhouxh/MOLMC/webserver/Backend/lua/code/service/"
+ "/Users/robertzhouxh/githubs/emqttd/"
+ "/tmp/"
+ "/Users/robertzhouxh/githubs/emacs.d/"
+ "/Users/robertzhouxh/githubs/emqttd/rel/files/"
+ "/Users/robertzhouxh/"
+ "/Users/robertzhouxh/githubs/emacs.d/config/"
+ "/Users/robertzhouxh/githubs/emqttd/src/"
+ "/Users/robertzhouxh/FTNT/"
+ "/Users/robertzhouxh/githubs/"
+ "/Users/robertzhouxh/Documents/"
+ "/Users/robertzhouxh/githubs/nginx-0.7.61/"
+ "/Users/robertzhouxh/githubs/nginx-0.7.61/src/core/"
+ "/Users/robertzhouxh/.emacs.d/config/"
+ "/Users/robertzhouxh/githubs/lua-5.1/src/"
+ "/Users/robertzhouxh/githubs/robertzhouxh.github.com/"
+ "/Users/robertzhouxh/githubs/robertzhouxh.github.com/_posts/blog/"
+ "/Users/robertzhouxh/githubs/test/"
+ "/Users/robertzhouxh/githubs/test/src/"
+ "/Users/robertzhouxh/githubs/TengxunEmacs.d/vim-emacs-setting/emacs/emacs.d/configs/"
+ "/Users/robertzhouxh/githubs/lua-nginx-module/src/api/"
+ "/Users/robertzhouxh/FTNT/FortiWEB/"
+ "/Users/robertzhouxh/githubs/lua-nginx-module/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".placeholder"
+ "emqttd.app"
+ "avatar.lua"
+ "dgb.org"
+ "emqttd.config"
+ "test.erl"
+ "a.txt"
+ "init-git-gutter.el"
+ "emqttd.app.src"
+ "emqttd_auth_anonymous.erl"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/robertzhouxh/githubs/emqttd/" (22005 18905 0 0) "test/" "src/" "rel/" "rebar.config" "rebar" "README.md" "plugins/" "PLUGIN.md" "Makefile" "LICENSE" "include/" "GTAGS" "GRTAGS" "GPATH" "ebin/" "doc/" "deps/" "CHANGELOG.md" ".travis.yml" ".rebar/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/src/" (22005 4861 0 0) "priority_queue.erl" "gen_server2.erl" "emqttd_ws_client.erl" "emqttd_vm.erl" "emqttd_util.erl" "emqttd_trie.erl" "emqttd_trace.erl" "emqttd_topic.erl" "emqttd_throttle.erl" "emqttd_sysmon.erl" "emqttd_sup.erl" "emqttd_stats.erl" "emqttd_sm_sup.erl" "emqttd_sm.erl" "emqttd_session_sup.erl" "emqttd_session.erl" "emqttd_serialiser.erl" "emqttd_retained.erl" "emqttd_pubsub_sup.erl" "emqttd_pubsub.erl" "emqttd_protocol.erl" "emqttd_pooler_sup.erl" "emqttd_pooler.erl" "emqttd_plugins.erl" "emqttd_parser.erl" "emqttd_packet.erl" "emqttd_opts.erl" "emqttd_net.erl" "emqttd_mqueue.erl" "emqttd_mod_sup.erl" "emqttd_mod_rewrite.erl" "emqttd_mod_presence.erl" "emqttd_mod_autosub.erl" "emqttd_mnesia.erl" "emqttd_metrics.erl" "emqttd_message.erl" "emqttd_log.erl" "emqttd_keepalive.erl" "emqttd_http.erl" "emqttd_guid.erl" "emqttd_gen_mod.erl" "emqttd_ctl.erl" "emqttd_cm_sup.erl" "emqttd_cm.erl" "emqttd_client.erl" "emqttd_broker.erl" "emqttd_bridge_sup.erl" "emqttd_bridge.erl" "emqttd_auth_username.erl" "emqttd_auth_mod.erl" "emqttd_auth_ldap.erl" "emqttd_auth_clientid.erl" "emqttd_auth_anonymous.erl" "emqttd_app.erl" "emqttd_alarm.erl" "emqttd_acl_mod.erl" "emqttd_acl_internal.erl" "emqttd_access_rule.erl" "emqttd_access_control.erl" "emqttd.erl" "emqttd.app.src" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/" (22005 18217 0 0) "zOpenLua/" "vernemq/" "usefull/" "test/" "robertzhouxh.github.com/" "ngx_openresty-1.7.10.1/" "nginx-book/" "nginx-auth-token-module/" "nginx-0.7.61/" "newEmacs.d/" "moochine/" "mongoose/" "maximum-awesome/" "lua-nginx-module/" "lua-5.1/" "ljsyscall/" "global-pygments-plugin/" "emqttd/" "emacs.d/" "dotfiles/" ".DS_Store" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/ebin/" (22004 62819 0 0) "priority_queue.beam" "gen_server2.beam" "emqttd_ws_client.beam" "emqttd_vm.beam" "emqttd_util.beam" "emqttd_trie.beam" "emqttd_trace.beam" "emqttd_topic.beam" "emqttd_throttle.beam" "emqttd_sysmon.beam" "emqttd_sup.beam" "emqttd_stats.beam" "emqttd_sm_sup.beam" "emqttd_sm.beam" "emqttd_session_sup.beam" "emqttd_session.beam" "emqttd_serialiser.beam" "emqttd_retained.beam" "emqttd_pubsub_sup.beam" "emqttd_pubsub.beam" "emqttd_protocol.beam" "emqttd_pooler_sup.beam" "emqttd_pooler.beam" "emqttd_plugins.beam" "emqttd_parser.beam" "emqttd_packet.beam" "emqttd_opts.beam" "emqttd_net.beam" "emqttd_mqueue.beam" "emqttd_mod_sup.beam" "emqttd_mod_rewrite.beam" "emqttd_mod_presence.beam" "emqttd_mod_autosub.beam" "emqttd_mnesia.beam" "emqttd_metrics.beam" "emqttd_message.beam" "emqttd_log.beam" "emqttd_keepalive.beam" "emqttd_http.beam" "emqttd_guid.beam" "emqttd_gen_mod.beam" "emqttd_ctl.beam" "emqttd_cm_sup.beam" "emqttd_cm.beam" "emqttd_client.beam" "emqttd_broker.beam" "emqttd_bridge_sup.beam" "emqttd_bridge.beam" "emqttd_auth_username.beam" "emqttd_auth_mod.beam" "emqttd_auth_ldap.beam" "emqttd_auth_clientid.beam" "emqttd_auth_anonymous.beam" "emqttd_app.beam" "emqttd_alarm.beam" "emqttd_acl_mod.beam" "emqttd_acl_internal.beam" "emqttd_access_rule.beam" "emqttd_access_control.beam" "emqttd.beam" "emqttd.app" ".placeholder" "../" "./")
+
+ ("/Users/robertzhouxh/MOLMC/webserver/Backend/lua/code/service/" (21940 50024 0 0) "userlib.lua" "user.lua" "token.lua" "template.lua" "schedule.lua" "recipe.lua" "publib.lua" "product.lua" "favorite.lua" "device.lua" "demo.lua" "datapoint.lua" "block.lua" "bin.lua" "avatar.lua" "app.lua" "../" "./")
+
+ ("/Users/robertzhouxh/MOLMC/webserver/Backend/lua/code/" (21932 39322 0 0) "service/" "data/" "ctrl/" "../" "./")
+
+ ("/Users/robertzhouxh/MOLMC/webserver/Backend/lua/" (22004 10509 0 0) "main.lua" "GTAGS" "GRTAGS" "GPATH" "core/" "config/" "code/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/rel/emqttd/" (21999 51456 0 0) "var/" "releases/" "plugins/" "log/" "lib/" "etc/" "erts-7.0.3/" "data/" "bin/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/deps/" (21986 18370 0 0) "mochiweb/" "lager/" "gproc/" "goldrush/" "gen_logger/" "esockd/" ".placeholder" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/deps/esockd/" (21986 18374 0 0) "TODO" "test/" "src/" "rebar.config" "rebar" "README.md" "Makefile" "LICENSE" "include/" "examples/" "ebin/" "doc/" "CHANGELOG.md" ".rebar/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/deps/esockd/src/" (22003 37802 0 0) "esockd_transport.erl" "esockd_sup.erl" "esockd_server.erl" "esockd_net.erl" "esockd_listener_sup.erl" "esockd_listener.erl" "esockd_keepalive.erl" "esockd_connection_sup.erl" "esockd_connection.erl" "esockd_app.erl" "esockd_access.erl" "esockd_acceptor_sup.erl" "esockd_acceptor.erl" "esockd.erl" "esockd.app.src" "../" "./")
+
+ ("/tmp/" (22003 62324 0 0) "launchd-399.8CX82k/" "launchd-274.gk3ENP/" "launchd-260.j0KWFf/" "launch-zE9exB/" "launch-xnrClQ/" "launch-15LHT4/" "KSOutOfProcessFetcher.501.I5ci1K_TwCwqo1sKvc0siaBbJTw=/" "emacs0/" "CrashReportCopyLock-xuehao的 iPhone" ".#db.org" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emacs.d/" (22003 42589 0 0) "vendor/" "var/" "url/" "tramp" "themes/" "recentf" "pyim/" "projectile.cache" "projectile-bookmarks.eld" "network-security.data" "init.el" "ido.last" "history" "eshell/" "elpa/" "edts/" "config/" "bookmarks" "auto-save-list/" "auto-insert/" "ac-comphist.dat" "abbrev_defs" ".smex-items" ".mc-lists.el" ".git/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/rel/files/" (21986 18326 0 0) "vm.args" "start_erl.cmd" "ssl/" "rewrite.config" "nodetool" "loaded_plugins" "install_upgrade.escript" "erl" "emqttd_ctl" "emqttd.config" "emqttd.cmd" "emqttd" "clients.config" "acl.config" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emqttd/rel/" (21999 51223 0 0) "vars.config" "reltool.config" "files/" "emqttd/" "../" "./")
+
+ ("/Users/robertzhouxh/" (22002 46823 0 0) "百度云同步盘/" "VirtualBox VMs/" "vagrant-docker/" "Tutorial/" "Public/" "Pictures/" "PDshare/" "News/" "Music/" "Movies/" "MOLMC/" "Maildir/" "Mail/" "LocalAppSrc/" "Library/" "IdeaProjects/" "githubs/" "FTNT/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Applications/" "a.c" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-robertzhouxh的MacBook Pro-5.0.2" ".zcompdump-Robertzhouxh's Mac Pro-5.0.2" ".Xresources" ".w3m/" ".vimrc.local" ".vimrc.bundles.local" ".vimrc.bundles" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".templates/" ".subversion/" ".ssh/" ".oh-my-zsh/" ".offlineimaprc" ".offlineimap.pyc" ".offlineimap.py" ".offlineimap/" ".npm/" ".newsrc-dribble" ".mu/" ".local/" ".htoprc" ".gnus.el" ".gnupg/" ".globalrc" ".gitconfig" ".erlang.cookie" ".emacs.d/" ".DS_Store" ".dropbox/" ".config/" ".cache/" ".authinfo.gpg" ".authinfo" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/emacs.d/config/" (22002 26411 0 0) "setup-package.el" "init-yasnippet.el" "init-whitespace.el" "init-util.el" "init-undo-tree.el" "init-tabbar.el" "init-smartparens.el" "init-projejctile.el" "init-org-mode.el" "init-neotree.el" "init-mutiple-curesor.el" "init-mu4e.el" "init-mode-mapps.el" "init-misc-modes.el" "init-man.el" "init-magit.el" "init-mac.el" "init-kit.el" "init-keybindings.el" "init-ido.el" "init-ibuffer.el" "init-helm.el" "init-helm-gtags.el" "init-guide-key.el" "init-golden-ratio.el" "init-gnus.el" "init-git-gutter.el" "init-ggtags.el" "init-flyspell.el" "init-flycheck.el" "init-expand-region.el" "init-evil.el" "init-emacs-w3m.el" "init-emacs-clang-complete-async.el" "init-edts.el" "init-ediff.el" "init-dired.el" "init-dash-at-point.el" "init-cua.el" "init-company.el" "init-clipboard.el" "init-cc-mode.el" "init-bootstrap.el" "init-bbdb.el" "init-autoinsert.el" "init-appearance.el" "init-anzu.el" "init-ack.el" "init-ace-jump-mode.el" "../" "./")
+
+ ("/Users/robertzhouxh/.emacs.d/" (21999 63907 0 0) "vendor/" "var/" "url/" "tramp" "themes/" "recentf" "pyim/" "projectile.cache" "projectile-bookmarks.eld" "network-security.data" "init.el" "ido.last" "history" "eshell/" "elpa/" "edts/" "config/" "bookmarks" "auto-save-list/" "auto-insert/" "ac-comphist.dat" "abbrev_defs" ".smex-items" ".mc-lists.el" ".git/" "../" "./")
+
+ ("/Users/robertzhouxh/FTNT/" (21994 59634 0 0) "Vagrantfile" "trunk/" "test/" "share/" "install.sh" "FortiWEB/" "bootstrap.sh" ".vagrant/" ".DS_Store" "../" "./")
+
+ ("/usr/" (21972 4120 0 0) "X11R6/" "X11/" "standalone/" "share/" "sbin/" "local/" "libexec/" "lib/" "include/" "bin/" "../" "./")
+
+ ("/home/" (21998 25202 787232 0) "../" "./")
+
+ ("/Users/robertzhouxh/Documents/" (21996 6699 0 0) "qconny-2014-evolving-rest-for-an-iot-world.pdf" "Parallels/" "note.pdf" "How-to-Learn-Emacs-v2-Large.png" "efsf2012-whatsapp-scaling.pdf" "clumsy cser.pdf" "21天学通erlang.pdf" ".parallels-vm-directory/" ".DS_Store" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/nginx-0.7.61/" (21974 54180 0 0) "TAGS" "src/" "README" "objs/" "Makefile" "LICENSE" "html/" "GTAGS" "GRTAGS" "GPATH" "emacs-c-ide-demo/" "contrib/" "configure" "conf/" "CHANGES.ru" "CHANGES" "auto/" "a.c" ".git/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/nginx-0.7.61/src/core/" (21998 58239 0 0) "tmp/" "ngx_times.h" "ngx_times.c" "ngx_string.h" "ngx_string.c" "ngx_spinlock.c" "ngx_slab.h" "ngx_slab.c" "ngx_shmtx.h" "ngx_shmtx.c" "ngx_sha1.h" "ngx_resolver.h" "ngx_resolver.c" "ngx_regex.h" "ngx_regex.c" "ngx_rbtree.h" "ngx_rbtree.c" "ngx_radix_tree.h" "ngx_radix_tree.c" "ngx_queue.h" "ngx_queue.c" "ngx_parse.h" "ngx_parse.c" "ngx_palloc.h" "ngx_palloc.c" "ngx_output_chain.c" "ngx_open_file_cache.h" "ngx_open_file_cache.c" "ngx_md5.h" "ngx_log.h" "ngx_log.c" "ngx_list.h" "ngx_list.c" "ngx_inet.h" "ngx_inet.c" "ngx_hash.h" "ngx_hash.c" "ngx_file.h" "ngx_file.c" "ngx_cycle.h" "ngx_cycle.c" "ngx_crc32.h" "ngx_crc32.c" "ngx_crc.h" "ngx_cpuinfo.c" "ngx_core.h" "ngx_connection.h" "ngx_connection.c" "ngx_config.h" "ngx_conf_file.h" "ngx_conf_file.c" "ngx_buf.h" "ngx_buf.c" "ngx_array.h" "ngx_array.c" "nginx.h" "nginx.c" ".#nginx.c" "../" "./")
+
+ ("/Users/robertzhouxh/.emacs.d/config/" (21985 21207 0 0) "setup-package.el" "init-yasnippet.el" "init-whitespace.el" "init-util.el" "init-undo-tree.el" "init-tabbar.el" "init-smartparens.el" "init-projejctile.el" "init-org-mode.el" "init-neotree.el" "init-mutiple-curesor.el" "init-mode-mapps.el" "init-misc-modes.el" "init-magit.el" "init-mac.el" "init-kit.el" "init-keybindings.el" "init-ido.el" "init-ibuffer.el" "init-helm.el" "init-helm-gtags.el" "init-guide-key.el" "init-golden-ratio.el" "init-ggtags.el" "init-flyspell.el" "init-flycheck.el" "init-expand-region.el" "init-evil.el" "init-erlang.el" "init-emacs-clang-complete-async.el" "init-edts.el" "init-ediff.el" "init-dired.el" "init-dash-at-point.el" "init-cua.el" "init-company.el" "init-clipboard.el" "init-cc-mode.el" "init-bootstrap.el" "init-bbdb.el" "init-autoinsert.el" "init-appearance.el" "init-anzu.el" "init-ack.el" "init-ace-jump-mode.el" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/robertzhouxh.github.com/_posts/blog/" (21977 24939 0 0) "template.md" "2015-08-23-http2.md" "2015-08-04-macos-emacs.md" "2015-08-01-lua-coroutine.md" "2015-03-21-nginx-lua.md" "2015-03-07-rabbitmq.md" "2015-02-17-starting-github-blog.md" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/lua-5.1/src/" (21973 32490 0 0) "print.c" "Makefile" "lzio.h" "lzio.c" "lvm.h" "lvm.c" "lundump.h" "lundump.c" "lualib.h" "luaconf.h" "luac.c" "lua.h" "lua.c" "ltm.h" "ltm.c" "ltablib.c" "ltable.h" "ltable.c" "lstrlib.c" "lstring.h" "lstring.c" "lstate.h" "lstate.c" "lparser.h" "lparser.c" "loslib.c" "lopcodes.h" "lopcodes.c" "lobject.h" "lobject.c" "loadlib.c" "lmem.h" "lmem.c" "lmathlib.c" "llimits.h" "llex.h" "llex.c" "liolib.c" "linit.c" "lgc.h" "lgc.c" "lfunc.h" "lfunc.c" "ldump.c" "ldo.h" "ldo.c" "ldebug.h" "ldebug.c" "ldblib.c" "lcode.h" "lcode.c" "lbaselib.c" "lauxlib.h" "lauxlib.c" "lapi.h" "lapi.c" ".#lapi.c" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/robertzhouxh.github.com/_posts/" (21969 63178 0 0) "project/" "opinion/" "blog/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/robertzhouxh.github.com/" (21969 56379 0 0) "project/" "opinion/" "js/" "index.md" "images/" "favicon.ico" "css/" "CNAME" "_posts/" "_layouts/" "_config.yml" "404.html" ".gitignore" ".git/" ".DS_Store" ".#404.html" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/lua-5.1/" (21969 64135 0 0) "test/" "tags" "src/" "README" "MANIFEST" "Makefile" "INSTALL" "HISTORY" "etc/" "doc/" "COPYRIGHT" "#mon#" "#a.html#" "#a.c#" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/test/" (21969 60611 0 0) "test.org" "src_kkk/" "src_bak/" "src/" "a.org" ".git/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/nginx-0.7.61/src/" (21965 32902 0 0) "os/" "misc/" "mail/" "http/" "event/" "demo/" "core/" "../" "./")
+
+ ("/Users/" (21831 39732 0 0) "Shared/" "robertzhouxh/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/test/src/" (21966 48191 0 0) "ngx_http_lua_nodule.c" "ngx_http_lua_module.c" "ngx_http_lua_misc.c" ".git/" "../" "./")
+
+ ("/.PKInstallSandboxManager/" (21250 63020 0 0) "../" "./")
+
+ ("/Users/robertzhouxh/githubs/test/src_bak/a.h/" (21964 30756 0 0) "../" "./")
+
+ ("/Users/robertzhouxh/githubs/test/src_bak/" (21964 30890 0 0) "foo.h/" "a.h/" "a.c/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/TengxunEmacs.d/vim-emacs-setting/emacs/emacs.d/configs/" (21963 63443 0 0) "window-setting.el" "my-yasnippet-settings.el" "my-ui.el" "my-themes.el" "my-tabbar.el" "my-small-tools.el" "my-ruby-mode-settings.el" "my-python-settings.el" "my-org-mode-settings.el" "my-octopress-settings.el" "my-misc-settings.el" "my-minor-key-map.el" "my-lua-config.el" "my-lisp-settings.el" "my-javascript-mode.el" "my-iimage-settings.el" "my-html-css-settings.el" "my-hippie-expand.el" "my-helm-config.el" "my-gud-settings.el" "my-gtags-config.el" "my-golang-settings.el" "my-gmail-settings.el" "my-functions.el" "my-flymake-settings.el" "my-evil-settings.el" "my-eshell-settings.el" "my-emacs-lisp-settings.el" "my-el-get-settings.el" "my-ecb-settings.el" "my-doxymacs-settings.el" "my-diminish.el" "my-csharp-mode-config.el" "my-cscope-settings.el" "my-coffee-script.el" "my-coding-style.el" "my-cedet-settings.el" "my-c-mode-config.el" "my-autocomplete-settings.el" "my-auto-insert-settings.el" "doxygen-config.el" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/TengxunEmacs.d/vim-emacs-setting/emacs/emacs.d/" (21958 64854 0 0) "ws/" "themes/" "snippets/" "plugins/" "eshell/" "configs/" "auto-insert/" ".gitignore" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/test/src/subDir/" (21963 2702 0 0) "ngx_http_lua_util.c" "ngx_http_lua_uthread.c" "ngx_http_lua_uri.c" "ngx_http_lua_directive.c" "ngx_http_lua_bodyfilterby.c" "../" "./")
+
+ ("/Users/robertzhouxh/FTNT/FortiWEB/" (21962 44126 0 0) "tool/" "sysinit/" "script/" "rules.Make" "README" "migbase/" "migadmin/" "manager/" "Makefile" "kernel/" "include/" "daemon/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/lua-nginx-module/.git/" (21963 1986 0 0) "refs/" "objects/" "info/" "index" "hooks/" "HEAD" "description" "config" "COMMIT_EDITMSG" ".#COMMIT_EDITMSG" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/lua-nginx-module/src/api/" (21884 20478 0 0) "ngx_http_lua_api.h" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/lua-nginx-module/src/" (21961 32827 0 0) "ngx_http_lua_worker.h" "ngx_http_lua_worker.c" "ngx_http_lua_variable.h" "ngx_http_lua_variable.c" "ngx_http_lua_util.h" "ngx_http_lua_util.c" "ngx_http_lua_uthread.h" "ngx_http_lua_uthread.c" "ngx_http_lua_uri.h" "ngx_http_lua_uri.c" "ngx_http_lua_timer.h" "ngx_http_lua_timer.c" "ngx_http_lua_time.h" "ngx_http_lua_time.c" "ngx_http_lua_subrequest.h" "ngx_http_lua_subrequest.c" "ngx_http_lua_string.h" "ngx_http_lua_string.c" "ngx_http_lua_socket_udp.h" "ngx_http_lua_socket_udp.c" "ngx_http_lua_socket_tcp.h" "ngx_http_lua_socket_tcp.c" "ngx_http_lua_sleep.h" "ngx_http_lua_sleep.c" "ngx_http_lua_shdict.h" "ngx_http_lua_shdict.c" "ngx_http_lua_setby.h" "ngx_http_lua_setby.c" "ngx_http_lua_script.h" "ngx_http_lua_script.c" "ngx_http_lua_rewriteby.h" "ngx_http_lua_rewriteby.c" "ngx_http_lua_req_method.h" "ngx_http_lua_req_method.c" "ngx_http_lua_req_body.h" "ngx_http_lua_req_body.c" "ngx_http_lua_regex.h" "ngx_http_lua_regex.c" "ngx_http_lua_probe.h" "ngx_http_lua_phase.h" "ngx_http_lua_phase.c" "ngx_http_lua_pcrefix.h" "ngx_http_lua_pcrefix.c" "ngx_http_lua_output.h" "ngx_http_lua_output.c" "ngx_http_lua_ndk.h" "ngx_http_lua_ndk.c" "ngx_http_lua_module.c" "ngx_http_lua_misc.h" "ngx_http_lua_misc.c" "ngx_http_lua_logby.h" "ngx_http_lua_logby.c" "ngx_http_lua_log.h" "ngx_http_lua_log.c" "ngx_http_lua_initworkerby.h" "ngx_http_lua_initworkerby.c" "ngx_http_lua_initby.h" "ngx_http_lua_initby.c" "ngx_http_lua_headers_out.h" "ngx_http_lua_headers_out.c" "ngx_http_lua_headers_in.h" "ngx_http_lua_headers_in.c" "ngx_http_lua_headers.h" "ngx_http_lua_headers.c" "ngx_http_lua_headerfilterby.h" "ngx_http_lua_headerfilterby.c" "ngx_http_lua_exception.h" "ngx_http_lua_exception.c" "ngx_http_lua_directive.h" "ngx_http_lua_directive.c" "ngx_http_lua_ctx.h" "ngx_http_lua_ctx.c" "ngx_http_lua_coroutine.h" "ngx_http_lua_coroutine.c" "ngx_http_lua_control.h" "ngx_http_lua_control.c" "ngx_http_lua_contentby.h" "ngx_http_lua_contentby.c" "ngx_http_lua_consts.h" "ngx_http_lua_consts.c" "ngx_http_lua_config.h" "ngx_http_lua_config.c" "ngx_http_lua_common.h" "ngx_http_lua_clfactory.h" "ngx_http_lua_clfactory.c" "ngx_http_lua_capturefilter.h" "ngx_http_lua_capturefilter.c" "ngx_http_lua_cache.h" "ngx_http_lua_cache.c" "ngx_http_lua_bodyfilterby.h" "ngx_http_lua_bodyfilterby.c" "ngx_http_lua_args.h" "ngx_http_lua_args.c" "ngx_http_lua_api.c" "ngx_http_lua_accessby.h" "ngx_http_lua_accessby.c" "ddebug.h" "api/" "../" "./")
+
+ ("/Users/robertzhouxh/githubs/lua-nginx-module/" (21963 1581 0 0) "valgrind.suppress" "util/" "tapset/" "tags" "t/" "src/" "README.markdown" "misc/" "dtrace/" "doc/" "config" "Changes" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

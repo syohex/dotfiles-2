@@ -1,0 +1,4 @@
+#+BEGIN_UML
+  Alice -> Bob: Authentication Request
+  Bob --> Alice: Authentication Response
+#+END_UML

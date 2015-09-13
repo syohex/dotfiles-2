@@ -1,0 +1,5 @@
+alias ll ls -l $*
+alias la ls -a $*
+alias gp git push
+alias gs git status
+alias gd git diff

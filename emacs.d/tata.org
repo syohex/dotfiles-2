@@ -1,0 +1,5 @@
+#+begin_src plantuml :file sequence_diagram.png
+skinparam monochrome true
+ Foo -> Bar: synchronous call
+ Foo ->> Bar: asynchronous call
+#+end_src
