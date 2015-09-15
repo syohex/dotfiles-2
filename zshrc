@@ -2,16 +2,6 @@
 export ZSH=$HOME/.oh-my-zsh
 
 
-# Setup terminal, and turn on colors 颜色配置 --- xuehao.zhou
-export TERM=xterm-256color
-export CLICOLOR=1
-export LSCOLORS=Gxfxcxdxbxegedabagacad
-# Enable color in grep
-export GREP_OPTIONS='--color=auto'
-export GREP_COLOR='3;33'
-# --end
-
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -24,14 +14,9 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# added --xuehao.zhou
-alias vi="/usr/local/bin/vim"
-set -o vi
-
 # vim mode in zsh
 bindkey -v
 bindkey -M viins ‘jj’ vi-cmd-mode
-# vim mode in zsh end
 
 # Directory movement
 alias up="cd .."
@@ -43,7 +28,7 @@ alias godesk='cd ~/Desktop'
 
 # Directory information
 alias ls="ls --color=auto"
-#alias ll="ls -lAFh --color"
+alias ll="ls -lAFh --color"
 alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias dus="du -smh * | sort -nr" #根据文件大小排序
 alias lh='ls -d .*' # show hidden files/directories only #只显示隐藏文件
@@ -91,7 +76,7 @@ alias aliyun="ssh root@112.124.114.164"
 alias amz="ssh -i ~/Downloads/xuehao-key-pairs-singapore.pem ubuntu@52.74.148.234"
 
 # Quick Edit
-ze(){
+zshrc(){
    vim ~/.zshrc
 }
 hosts(){
@@ -99,6 +84,10 @@ hosts(){
 }
 vimrc(){
    vim ~/.vimrc #编辑vim配置
+}
+
+emacs.d(){
+   vim ~/.emacs.d #编辑 emacs
 }
 
 # Git
@@ -110,6 +99,8 @@ alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias gb='git branch'
 alias gd='git diff' #显示缓存变化
 alias ghard='git reset --hard'
+alias ec='emacsclient -t -a=""'
+alias se='SUDO_EDITOR="emacsclient -t" sudo -e'
 
 # 快速查看本机IP地址
 function myip() {
@@ -171,22 +162,22 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/openresty/nginx/sbin:$PATH
-export PATH=/opt/local/libexec/gnubin:$PATH
 
+# use Unix Style cmd
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:/opt/local/libexec/gnubin:$PATH
+export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:/usr/local/lib/erlang/man:$MANPATH
 # export MANPATH="/usr/local/man:$MANPATH"
+
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -201,10 +192,3 @@ export LC_ALL=en_US.UTF-8
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-# use Unix Style cmd
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:/opt/local/libexec/gnubin:$PATH
-export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:/usr/local/lib/erlang/man:$MANPATH
-alias ec='emacsclient -t -a=""'
-alias se='SUDO_EDITOR="emacsclient -t" sudo -e'
-# alias emacs="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
