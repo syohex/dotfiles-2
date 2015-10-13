@@ -186,11 +186,11 @@ alias gd='git diff' #显示缓存变化
 alias ghard='git reset --hard'
 alias ssh='ssh -A'
 
-## Emacs:
-## alias emacs="`which emacs` -nw"   # Failsafe
-#     alias e="emacsclient -t"          # Preferred
-#     alias se='SUDO_EDITOR="emacsclient -t" sudo -e'
-#     alias ed="`which emacs` --daemon" # Start the daemon
+# Emacs:
+alias emacs="`which emacs` -nw"   # Failsafe
+# alias e="emacsclient -t"          # Preferred
+# alias se='SUDO_EDITOR="emacsclient -t" sudo -e'
+# alias ed="`which emacs` --daemon" # Start the daemon
 
 # 让emacs -t 成为默认编辑器让svn git 方便提交
 export EDITOR="emacsclient -t"
@@ -252,7 +252,7 @@ SAVEHIST=4096
 ulimit -n 1048576
 
 # virtual hosts
-alias test="ssh -i ~/.ssh/test_rsa zxh@192.168.0.45"
+alias test="ssh -i ~/.ssh/test_rsa zxh@aliyun"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
