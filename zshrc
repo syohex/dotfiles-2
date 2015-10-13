@@ -2,6 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # Look in ~/.oh-my-zsh/themes/
+# ZSH_THEME="random"
 ZSH_THEME="agnoster"
 
 # Set my terminal if I'm not in tmux.
@@ -43,8 +44,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting autojump)
-
+plugins=(git cloudapp node npm bower brew osx autojump httpie web-search)
 
 # ======================= User configuration =======================
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -68,9 +68,13 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=/Users/robertzhouxh/goEnv
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-
 # use Unix Style cmd
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:/opt/local/libexec/gnubin:$PATH
+if brew list | grep coreutils > /dev/null ; then
+  # PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+  alias ls='ls -F --show-control-chars --color=auto'
+  eval `gdircolors -b $HOME/.dir_colors`
+  export PATH=/usr/local/opt/coreutils/libexec/gnubin:/opt/local/libexec/gnubin:$PATH
+fi
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,7 +95,7 @@ fi
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
-alias d="cd ~/Documents/Dropbox"
+alias dc="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/githubs"
@@ -106,10 +110,9 @@ fi
 alias l="ls -lF ${colorflag}"    # List all files colorized in long format
 alias la="ls -laF ${colorflag}"    # List all files colorized in long format, including dot files
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"   # List only directories
-alias ls="command ls ${colorflag}"    # Always use color output for `ls`
+# alias ls="command ls ${colorflag}"    # Always use color output for `ls`
+alias ls='ls -F --show-control-chars --color=auto'
 alias sudo='sudo '    # Enable aliases to be sudo’ed
-export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
-
 alias week='date +%V'   # Get week number
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'    # Stopwatch
 alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
@@ -232,9 +235,10 @@ function r() { grep "$1" ${@:2} -R . }
 #mkdir and cd
 function mkcd() { mkdir -p "$@" && cd "$_"; }
 
-# makes color constants available
-autoload -U colors
-colors
+# LSCOLORS/LS_COLORS
+## autoload colors; colors;
+## export LS_COLORS='no=00:fi=00:di=00;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:';
+## export LSCOLORS="exfxcxdxbxexexabagacad"
 
 # history settings
 setopt hist_ignore_all_dups inc_append_history
