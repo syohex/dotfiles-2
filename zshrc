@@ -44,7 +44,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cloudapp node npm bower brew osx autojump httpie web-search)
+plugins=(git node npm bower brew osx autojump httpie web-search)
 
 # ======================= User configuration =======================
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -256,3 +256,5 @@ alias test="ssh -i ~/.ssh/test_rsa zxh@aliyun"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
