@@ -256,6 +256,10 @@ alias alydb="ssh -i ~/.ssh/broker -o ServerAliveInterval=10 root@alydb"
 alias alyclient="ssh -i ~/.ssh/broker -o ServerAliveInterval=10 root@alyclient"
 alias dev-77="ssh -i ~/.ssh/test_rsa -o ServerAliveInterval=10 zxh@dev-77"
 
+# for emacs ggtags
+export GTAGSCONF=/usr/local/share/gtags/gtags.conf
+export GTAGSLABEL=ctags
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
