@@ -30,8 +30,8 @@
 
 (require 'smartrep)
 (smartrep-define-key
-    global-map  "C-x" '(("p" . 'git-gutter:previous-diff)
-                        ("n" . 'git-gutter:next-diff)))
+    global-map  "C-x" '(("p" . 'git-gutter:previous-hunk)
+                        ("n" . 'git-gutter:next-hunk)))
 
 ;; {{ git-messenger
 (autoload 'git-messenger:popup-message "git-messenger" "" t)
